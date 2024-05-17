@@ -1,0 +1,20 @@
+TWENTY_QUESTIONS_GAME
+│
+├── static                # 웹 페이지에 사용되는 정적 파일들을 저장하는 디렉토리
+│   ├── css               # CSS 파일들을 저장하는 디렉토리
+│   │   └── style.css     # 웹 페이지의 스타일을 정의하는 CSS 파일
+│   │
+│   ├── js                # JavaScript 파일들을 저장하는 디렉토리
+│   │   └── script.js     # 웹 페이지의 동적 기능을 담당하는 JavaScript 파일
+│   │
+│   └── sounds            # 게임에서 사용되는 사운드 파일을 저장하는 디렉토리
+│       ├── correct.mp3   # 정답일 때 재생되는 사운드 파일
+│       └── wrong.mp3     # 오답일 때 재생되는 사운드 파일
+│
+├── templates             # Flask가 웹 페이지를 생성할 때 사용하는 HTML 템플릿 파일들을 저장하는 디렉토리
+│   ├── 405.html          # 405 오류(허용되지 않는 메소드 오류)를 처리하는 HTML 템플릿
+│   ├── end.html          # 게임이 끝났을 때 보여지는 HTML 템플릿
+│   ├── guess.html        # 사용자가 추측을 입력하는 페이지의 HTML 템플릿
+│   └── index.html        # 게임 시작 페이지의 HTML 템플릿
+│
+└── app.py                # Flask 애플리케이션의 메인 파일로, 라우팅과 앱 로직을 포함
