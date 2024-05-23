@@ -1,0 +1,16 @@
+>TWENTY_QUESTIONS_GAME
+	>static
+	|	>css
+	|	|	>style.css
+	|	>js
+	|	|	>script.js
+	|	>sounds
+	|	|	>correct.mp3
+	|	|	>wrong.mp3
+	>templates|
+	|	|>end,html
+	|	|>guess.html
+	|	|>index.html
+	>app.py
+
+      # //프로잭트 구조
